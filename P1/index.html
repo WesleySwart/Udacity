@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Project P1: Build a Portfolio Site-->
+<!-- TODO:
+	-*Add placeholder images: change images
+	-Refine font: personalize
+	-*Fix row divider
+	-Add personlization
+	-*(Bug) Img captions do not stay centered under img (> 400px)
+	-Add links -->
+<html>
+<head>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<title>Portfolio 1</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<!-- 100 x 100 -->
+				<img class="title-logo" src="http://placebear.com/150/150" alt="Udacity Logo">
+			</div>
+			<div class="col-md-6 text-right text-uppercase">
+				<h1 class="text-super text-thin">Jane Doette</h1>
+				<h4>Front-end Ninja</h4>
+			</div>
+		</div>
+		<hr></hr>
+		<div class="row">
+			<div class="col-md-12">
+				<!-- 960/1000 x 350 -->
+				<img src="images/city-q-c-1000-350-7.jpg" alt="Main">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-muted">Featured Work</h2>
+			</div>
+		</div>
+		<div class="row text-center img-responsive">
+			<div class="col-md-4 feature1">
+				<!-- 300 x 200 -->
+				<img src="images/nature-q-c-300-200-3.jpg" alt="Appify">
+				<h3 class="text-uppercase">Appify</h3>
+				<p>http://github.com/udacity/Appify/</p>
+			</div>
+			<div class="col-md-4 feature2">
+				<!-- 300 x 200 -->
+				<img src="images/nature-q-c-300-200-5.jpg" alt="Sunflower">
+				<h3 class="text-uppercase">Sunflower</h3>
+				<p>http://github.com/udacity/Sunflower/</p>
+			</div>
+			<div class="col-md-4 feature3">
+				<!-- 300 x 200 -->
+				<img src="images/nature-q-c-300-200-8.jpg" alt="Bokeh">
+				<h3 class="text-uppercase">Bokeh</h3>
+				<p>http://github.com/udacity/Bokeh/</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

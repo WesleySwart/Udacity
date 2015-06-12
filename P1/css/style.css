@@ -1,8 +1,8 @@
-/*font-family: 'Lato', sans-serif;*/
 body{
 	font-family: 'Lato', sans-serif;
-	color: #747704;
+	color: #283B65;
 	font-weight: 300;
+	font-size: 16px;
 }
 
 hr{
@@ -13,29 +13,28 @@ img, embed, object, video{
 	max-width: 100%;
 }
 
-/*Needs adjustment
-@media screen and (min-width: 800px)
+@media screen and (max-width: 991px)
 {
-	.feature1{
-		max-width: 50%;
-	}
-	.feature2{
-		max-width: 50%;
+	.col-xs-12, .col-sm-6{
+		margin-bottom: 20px;
 	}
 }
 
-@media screen and (min-width: 1000px)
+@media screen and (min-width: 992px)
 {
-	.feature1{
-		max-width: 100%;
+	.container{
+		width: 970px;
+		margin-left: auto;
+		margin-right: auto;
 	}
-	.feature2{
-		max-width: 100%;
+
+	.img-responsive{
+		margin-bottom: 20px;
 	}
 }
-*/
-.text-muted{
-	color: #BCBBBB;
+
+.logo{
+	margin-top: 35px;
 }
 
 .text-thin{
@@ -50,3 +49,13 @@ img, embed, object, video{
 	margin-top: 20px;
 }
 
+.img-responsive {
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+
+.col-md-4{
+	padding-left: 0;
+	padding-right: 0;
+}
